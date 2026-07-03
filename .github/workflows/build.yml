@@ -44,6 +44,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: ${{ secrets.EC2_PORT }}
           script: |
-            sudo mv /home/ubuntu/backend-0.0.1-SNAPSHOT.jar /opt/springboot/
-            sudo systemctl restart springboot
-            sudo systemctl status springboot --no-pager
+            script: |
+              sudo mv /home/ubuntu/target/backend-0.0.1-SNAPSHOT.jar /opt/springboot/backend-0.0.1-SNAPSHOT.jar
+              sudo systemctl restart springboot
+              sudo systemctl status springboot --no-pager
