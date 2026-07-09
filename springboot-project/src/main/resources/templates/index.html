@@ -3,218 +3,301 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dinesh Shopping Store</title>
+    <title>DevOps Electronics Store</title>
 
     <link rel="stylesheet" href="/css/style.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-<header>
+<!-- Top Header -->
+
+<div class="top-bar">
+
+    <div class="left">
+
+        <span><i class="fa-solid fa-truck"></i> Free Delivery</span>
+
+        <span><i class="fa-solid fa-tag"></i> Today's Deals</span>
+
+        <span><i class="fa-solid fa-headset"></i> 24/7 Support</span>
+
+    </div>
+
+    <div class="right">
+
+        <a href="#">Login</a>
+
+        <a href="#">Register</a>
+
+    </div>
+
+</div>
+
+<!-- Navbar -->
+
+<nav>
 
     <div class="logo">
-        <h2>🛒 Dinesh Store</h2>
+
+        DevOps<span>Shop</span>
+
     </div>
 
-    <div class="search-box">
-        <input type="text" placeholder="Search Mobiles, Laptops, Accessories">
-        <button><i class="fas fa-search"></i></button>
+    <div class="search">
+
+        <input type="text" placeholder="Search Mobiles, Laptops, Accessories...">
+
+        <button>
+
+            <i class="fa-solid fa-search"></i>
+
+        </button>
+
     </div>
 
-    <nav>
+    <ul>
 
-        <a href="#">Home</a>
-        <a href="#mobiles">Mobiles</a>
-        <a href="#laptops">Laptops</a>
-        <a href="#accessories">Accessories</a>
-        <a href="#">Offers</a>
+        <li><a href="#">Home</a></li>
 
-    </nav>
+        <li><a href="#mobiles">Mobiles</a></li>
+
+        <li><a href="#laptops">Laptops</a></li>
+
+        <li><a href="#">Accessories</a></li>
+
+        <li><a href="#">Offers</a></li>
+
+    </ul>
 
     <div class="icons">
 
-        <i class="fas fa-user"></i>
+        <i class="fa-regular fa-heart"></i>
 
-        <i class="fas fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
 
-        <i class="fas fa-shopping-cart"></i>
+        <i class="fa-regular fa-user"></i>
 
     </div>
 
-</header>
+</nav>
 
+<!-- Hero Banner -->
 
 <section class="hero">
 
-    <div class="hero-text">
+    <div class="hero-left">
 
-        <h1>MEGA ELECTRONICS SALE</h1>
+        <h4>WELCOME TO DEVOPS SHOP</h4>
 
-        <p>Up To 60% OFF On Premium Electronics</p>
+        <h1>Electronics Mega Sale</h1>
 
-        <button>Shop Now</button>
+        <h2>UP TO 70% OFF</h2>
+
+        <p>
+
+            Mobiles • Laptops • Gaming • Accessories
+
+        </p>
+
+        <button>
+
+            Shop Now
+
+        </button>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=700" alt="phone">
 
     </div>
 
 </section>
 
+<!-- Categories -->
 
 <section class="categories">
 
-    <h2>Shop By Category</h2>
+<h2>Shop By Category</h2>
 
-    <div class="category-container">
+<div class="category-grid">
 
-        <div class="category-card">
+<div class="category-card">
 
-            <i class="fas fa-mobile-screen-button"></i>
+<i class="fa-solid fa-mobile-screen-button"></i>
 
-            <h3>Mobiles</h3>
+<h3>Mobiles</h3>
 
-        </div>
+</div>
 
-        <div class="category-card">
+<div class="category-card">
 
-            <i class="fas fa-laptop"></i>
+<i class="fa-solid fa-laptop"></i>
 
-            <h3>Laptops</h3>
+<h3>Laptops</h3>
 
-        </div>
+</div>
 
-        <div class="category-card">
+<div class="category-card">
 
-            <i class="fas fa-headphones"></i>
+<i class="fa-solid fa-headphones"></i>
 
-            <h3>Accessories</h3>
+<h3>Accessories</h3>
 
-        </div>
+</div>
 
-        <div class="category-card">
+<div class="category-card">
 
-            <i class="fas fa-clock"></i>
+<i class="fa-solid fa-gamepad"></i>
 
-            <h3>Smart Watches</h3>
+<h3>Gaming</h3>
 
-        </div>
+</div>
 
-    </div>
+<div class="category-card">
 
-</section>
+<i class="fa-solid fa-tv"></i>
 
+<h3>Smart TVs</h3>
 
+</div>
 
-<section id="mobiles" class="products">
+<div class="category-card">
 
-    <h2>Latest Mobiles</h2>
+<i class="fa-solid fa-clock"></i>
 
-    <div class="product-grid">
+<h3>Smart Watches</h3>
 
-        <div class="product-card">
+</div>
 
-            <img src="https://via.placeholder.com/250x220" alt="">
-
-            <h3>iPhone 17 Pro</h3>
-
-            <p>₹1,29,999</p>
-
-            <div class="rating">
-                ⭐⭐⭐⭐⭐
-            </div>
-
-            <button>Add To Cart</button>
-
-        </div>
-
-        <div class="product-card">
-
-            <img src="https://via.placeholder.com/250x220" alt="">
-
-            <h3>Samsung S26 Ultra</h3>
-
-            <p>₹1,14,999</p>
-
-            <div class="rating">
-                ⭐⭐⭐⭐⭐
-            </div>
-
-            <button>Add To Cart</button>
-
-        </div>
-
-        <div class="product-card">
-
-            <img src="https://via.placeholder.com/250x220" alt="">
-
-            <h3>OnePlus 15</h3>
-
-            <p>₹69,999</p>
-
-            <div class="rating">
-                ⭐⭐⭐⭐☆
-            </div>
-
-            <button>Add To Cart</button>
-
-        </div>
-
-    </div>
+</div>
 
 </section>
 
+<!-- Featured Products -->
 
+<section id="mobiles">
 
-<section id="laptops" class="products">
+<h2 class="section-title">
 
-    <h2>Best Laptops</h2>
+Featured Mobiles
 
-    <div class="product-grid">
+</h2>
 
-        <div class="product-card">
+<div class="products">
 
-            <img src="https://via.placeholder.com/250x220" alt="">
+<div class="product">
 
-            <h3>MacBook Pro M5</h3>
+<img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=400">
+
+<h3>iPhone 16 Pro</h3>
+
+<p>₹1,29,999</p>
+
+<button>Add To Cart</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400">
+
+<h3>Samsung S25 Ultra</h3>
+
+<p>₹1,09,999</p>
+
+<button>Add To Cart</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=400">
+
+<h3>OnePlus 13</h3>
+
+<p>₹69,999</p>
+
+<button>Add To Cart</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400">
+
+<h3>Google Pixel</h3>
+
+<p>₹79,999</p>
+
+<button>Add To Cart</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Laptops Section -->
+
+<section id="laptops">
+
+    <h2 class="section-title">
+        Best Selling Laptops
+    </h2>
+
+    <div class="products">
+
+        <div class="product">
+
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400">
+
+            <h3>Apple MacBook Pro M4</h3>
 
             <p>₹2,09,999</p>
 
-            <div class="rating">
-                ⭐⭐⭐⭐⭐
-            </div>
-
             <button>Add To Cart</button>
 
         </div>
 
-        <div class="product-card">
+        <div class="product">
 
-            <img src="https://via.placeholder.com/250x220" alt="">
+            <img src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=400">
 
             <h3>Dell XPS 15</h3>
 
             <p>₹1,59,999</p>
 
-            <div class="rating">
-                ⭐⭐⭐⭐⭐
-            </div>
-
             <button>Add To Cart</button>
 
         </div>
 
-        <div class="product-card">
+        <div class="product">
 
-            <img src="https://via.placeholder.com/250x220" alt="">
+            <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400">
 
             <h3>Lenovo Legion</h3>
 
             <p>₹1,39,999</p>
 
-            <div class="rating">
-                ⭐⭐⭐⭐☆
-            </div>
+            <button>Add To Cart</button>
+
+        </div>
+
+        <div class="product">
+
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400">
+
+            <h3>HP Pavilion</h3>
+
+            <p>₹94,999</p>
 
             <button>Add To Cart</button>
 
@@ -224,114 +307,233 @@
 
 </section>
 
+<!-- Accessories -->
 
+<section class="categories">
 
-<section id="accessories" class="products">
+<h2>Popular Accessories</h2>
 
-    <h2>Accessories</h2>
+<div class="category-grid">
 
-    <div class="product-grid">
+<div class="category-card">
 
-        <div class="product-card">
+<i class="fa-solid fa-headphones"></i>
 
-            <img src="https://via.placeholder.com/250x220" alt="">
+<h3>Headphones</h3>
 
-            <h3>Sony Headphones</h3>
+</div>
 
-            <p>₹19,999</p>
+<div class="category-card">
 
-            <button>Add To Cart</button>
+<i class="fa-solid fa-keyboard"></i>
 
-        </div>
+<h3>Keyboard</h3>
 
-        <div class="product-card">
+</div>
 
-            <img src="https://via.placeholder.com/250x220" alt="">
+<div class="category-card">
 
-            <h3>Apple Watch</h3>
+<i class="fa-solid fa-computer-mouse"></i>
 
-            <p>₹49,999</p>
+<h3>Mouse</h3>
 
-            <button>Add To Cart</button>
+</div>
 
-        </div>
+<div class="category-card">
 
-        <div class="product-card">
+<i class="fa-solid fa-camera"></i>
 
-            <img src="https://via.placeholder.com/250x220" alt="">
+<h3>Camera</h3>
 
-            <h3>Mechanical Keyboard</h3>
+</div>
 
-            <p>₹8,999</p>
+<div class="category-card">
 
-            <button>Add To Cart</button>
+<i class="fa-solid fa-tablet-screen-button"></i>
 
-        </div>
+<h3>Tablet</h3>
 
-    </div>
+</div>
+
+<div class="category-card">
+
+<i class="fa-solid fa-memory"></i>
+
+<h3>Storage</h3>
+
+</div>
+
+</div>
 
 </section>
 
-
+<!-- Flash Sale -->
 
 <section class="offer">
 
-    <h2>🔥 Today's Special Offer</h2>
+<div class="offer-content">
 
-    <h1>BUY 2 GET 1 FREE</h1>
+<h3>🔥 LIMITED TIME OFFER</h3>
 
-    <p>Applicable on selected accessories.</p>
+<h1>UP TO 70% OFF</h1>
+
+<p>
+
+Grab the best deals on Electronics before the sale ends.
+
+</p>
+
+<button>
+
+Shop Deals
+
+</button>
+
+</div>
 
 </section>
 
+<!-- Brand Section -->
 
+<section class="brands">
+
+<h2 class="section-title">
+
+Top Brands
+
+</h2>
+
+<div class="brand-grid">
+
+<div>🍎 Apple</div>
+
+<div>📱 Samsung</div>
+
+<div>💻 Dell</div>
+
+<div>🖥 Lenovo</div>
+
+<div>🎧 Sony</div>
+
+<div>⌚ ASUS</div>
+
+</div>
+
+</section>
+
+<!-- Newsletter -->
+
+<section class="newsletter">
+
+<h2>
+
+Subscribe For Latest Offers
+
+</h2>
+
+<p>
+
+Receive exclusive discounts directly to your email.
+
+</p>
+
+<div class="subscribe">
+
+<input type="email" placeholder="Enter Email Address">
+
+<button>
+
+Subscribe
+
+</button>
+
+</div>
+
+</section>
+
+<!-- Footer -->
 
 <footer>
 
-    <div class="footer-container">
+<div class="footer-grid">
 
-        <div>
+<div>
 
-            <h3>Dinesh Shopping Store</h3>
+<h3>DevOps Shop</h3>
 
-            <p>Your one-stop destination for electronics.</p>
+<p>
 
-        </div>
+Your one-stop destination for Electronics, Mobiles, Laptops and Accessories.
 
-        <div>
+</p>
 
-            <h3>Quick Links</h3>
+</div>
 
-            <p>Home</p>
+<div>
 
-            <p>Mobiles</p>
+<h3>Quick Links</h3>
 
-            <p>Laptops</p>
+<ul>
 
-            <p>Accessories</p>
+<li>Home</li>
 
-        </div>
+<li>Mobiles</li>
 
-        <div>
+<li>Laptops</li>
 
-            <h3>Contact</h3>
+<li>Accessories</li>
 
-            <p>Email : support@dineshstore.com</p>
+<li>Offers</li>
 
-            <p>Phone : +91 9876543210</p>
+</ul>
 
-        </div>
+</div>
 
-    </div>
+<div>
 
-    <hr>
+<h3>Customer Support</h3>
 
-    <p style="text-align:center;">
-        © 2026 Dinesh Shopping Store | Built with Spring Boot + Docker + AWS
-    </p>
+<ul>
+
+<li>Help Center</li>
+
+<li>Track Order</li>
+
+<li>Returns</li>
+
+<li>Refund Policy</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email : support@devopsshop.com</p>
+
+<p>Phone : +91 9876543210</p>
+
+<p>Hyderabad, India</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="copyright">
+
+<p>
+
+© 2026 DevOps Shop | Spring Boot • Docker • GitHub Actions • AWS EC2
+
+</p>
+
+</div>
 
 </footer>
-
 
 <script src="/js/script.js"></script>
 
